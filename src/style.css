@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+.p_hello {
+    color: red;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.p_hello:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
