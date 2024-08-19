@@ -226,11 +226,51 @@ iframe {
 }
 
 
-.text_rev {
+/* .text_rev {
     text-align: center;
+    border: #3b294d;
+    border: 2px solid #ccc; 
+    padding: 15px; 
+    border-radius: 5px; 
+    margin-top: 20px;
     margin-top: 5%;
     font-size: 1.0em;
     font-weight: 900;
     color: #292032;
     text-transform: uppercase;
+} */
+
+
+.bordered-container {
+    text-align: center;
+    border: 2px solid #ccc; /* Adjust the border color and width as needed */
+    padding: 15px; /* Add padding inside the border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    margin-top: 20px; /* Optional: Add margin to the top */
+    font-size: 1.2em;
+    font-weight: 900
+}
+
+.footer {
+    background-color: #f8f9fa; /* Background color for the footer */
+    padding: 20px; /* Padding inside the footer */
+    text-align: center; /* Center-align text */
+    border-top: 2px solid #ccc; /* Optional: Add a top border */
+    margin-top: 40px; /* Margin to separate from the content above */
+}
+
+.author-info {
+    font-size: 1em; /* Font size for author info */
+    color: #292032; /* Text color */
+}
+
+.social-links a {
+    margin: 0 10px; /* Margin between social links */
+    text-decoration: none; /* Remove underline from links */
+    color: #3b294d; /* Link color */
+    font-weight: bold; /* Bold text for links */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
