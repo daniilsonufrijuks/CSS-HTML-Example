@@ -162,3 +162,75 @@ iframe {
 .color-swatch.blue {
     background-color: #27722292;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;  
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.btn {
+    padding: 10px 40px;
+    font-size: 1.2em;
+    font-weight: 900;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/* .btn-warning {
+    background-color: #f0ad4e;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+} */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    background-color: #f8f9fa; 
+    margin-top: 50px;
+}
+
+
+/* .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+} */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Adjust as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.card {
+    width: 18rem; /* Keep the existing width */
+}
+
+
+.text_rev {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.0em;
+    font-weight: 900;
+    color: #292032;
+    text-transform: uppercase;
+}
