@@ -71,3 +71,94 @@
     object-fit: cover;
 }
 
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust as needed */
+}
+
+iframe {
+    max-width: 100%;
+    width: 560px; /* Adjust as needed */
+    height: 315px; /* Adjust as needed */
+}
+
+
+.text {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #3b294d;
+    text-transform: uppercase;
+}
+
+.link {
+    display: block; /* Ensure it's a block-level element */
+    text-align: center; /* Center the text */
+    margin-top: 5%;
+    font-size: 1.0em;
+    font-weight: 1000;
+    color: #517fdc;
+    text-transform: uppercase;
+}
+
+.star-rating {
+    text-align: center; /* Center the stars */
+    margin-top: 1%;
+}
+
+.star {
+    font-size: 2em; /* Adjust the size of the stars */
+    color: #ffcc00; /* Color of the stars */
+}
+
+
+.text_s {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 0.9em;
+    font-weight: 900;
+    color: #9e9ba0;
+    text-transform: uppercase;
+}
+
+
+.color-options {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.color-options h4 {
+    margin-bottom: 10px;
+}
+
+.color-options label {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.color-swatch {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.color-swatch.black {
+    background-color: #000;
+}
+
+.color-swatch.white {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.color-swatch.blue {
+    background-color: #27722292;
+}
