@@ -8,8 +8,35 @@
     transition: color 0.3s;
 }
 
-.nav justify-content-center {
+/* .nav justify-content-center {
     color: #b06464;
+} */
+
+.top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays above other content */
+    background-color: white; /* Optional: Add background color to navbar */
+}
+
+.navbar {
+    position: fixed;
+    top: 50px; /* Adjust this value based on the height of the top nav */
+    width: 100%;
+    z-index: 999; /* Ensures it stays below the top nav */
+    background-color: white; /* Optional: Add background color to navbar */
+    /* overflow-y: top; */
+    /* max-height: calc(100vh - 50px); */
+}
+
+.heading1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2em;
+    font-weight: 900;
+    color: #6b488e;
+    text-transform: uppercase;
 }
 
 .img-fluid {
@@ -18,15 +45,6 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-}
-
-.heading1 {
-    text-align: center;
-    margin-top: 5%;
-    font-size: 2em;
-    font-weight: 900;
-    color: #6b488e;
-    text-transform: uppercase;
 }
 
 .img-fluid2 {
